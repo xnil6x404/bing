@@ -1,0 +1,602 @@
+[
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Nova\n[B] M249\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] XM1014\n[B] M249\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] Nova\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Negev\n[B] Sawed-Off\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] Nova\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] MAG-7\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] MAG-7\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Nova\n[B] M249\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Nova\n[B] MAG-7\n[C] Negev",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] M249\n[B] Sawed-Off\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] XM1014\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Nova\n[B] Sawed-Off\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Negev\n[B] Sawed-Off\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] XM1014\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] Negev\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] XM1014\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] MAG-7\n[B] XM1014\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Negev\n[B] MAG-7\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Negev\n[B] MAG-7\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Nova\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Sawed-Off\n[B] Negev\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Sawed-Off\n[B] Negev\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Negev\n[B] Sawed-Off\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] M249\n[B] Sawed-Off\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] MAG-7\n[C] Sawed-Off",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] MAG-7\n[B] Sawed-Off\n[C] Negev",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] Nova\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] M249\n[B] Sawed-Off\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Sawed-Off\n[B] M249\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] M249\n[B] XM1014\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Sawed-Off\n[B] XM1014\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] MAG-7\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Negev\n[B] XM1014\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Sawed-Off\n[B] XM1014\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] M249\n[B] MAG-7\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Sawed-Off\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Negev\n[B] M249\n[C] Nova",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] Nova\n[C] MAG-7",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Nova\n[B] Sawed-Off\n[C] Negev",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] Nova\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] MAG-7\n[B] XM1014\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] XM1014\n[B] MAG-7\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] XM1014\n[B] M249\n[C] Nova",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] Nova\n[C] Sawed-Off",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Sawed-Off\n[B] Nova\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] Negev\n[C] MAG-7",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] MAG-7\n[B] Negev\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] Sawed-Off\n[C] MAG-7",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] MAG-7\n[B] Sawed-Off\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Sawed-Off\n[B] MAG-7\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] M249\n[B] Sawed-Off\n[C] Nova",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] M249\n[B] Negev\n[C] Nova",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] Negev\n[C] Sawed-Off",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] Nova\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] M249\n[B] XM1014\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] MAG-7\n[B] XM1014\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] MAG-7\n[B] Sawed-Off\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] Sawed-Off\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] M249\n[B] Nova\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Nova\n[B] Negev\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] XM1014\n[B] M249\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] MAG-7\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Nova\n[B] XM1014\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] MAG-7\n[B] M249\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Negev\n[B] Nova\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] MAG-7\n[B] Negev\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Nova\n[B] Negev\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] MAG-7\n[B] Nova\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Negev\n[C] Sawed-Off",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] M249\n[C] MAG-7",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] XM1014\n[B] MAG-7\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] MAG-7\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Negev\n[B] Nova\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] MAG-7\n[B] M249\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] M249\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] XM1014\n[B] Nova\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Sawed-Off\n[B] MAG-7\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Nova\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Nova\n[B] MAG-7\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] M249\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Nova\n[B] Sawed-Off\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] XM1014\n[B] Sawed-Off\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Negev\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] XM1014\n[B] Nova\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] M249\n[B] XM1014\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] M249\n[B] Negev\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Nova\n[B] XM1014\n[C] Negev",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] Nova\n[B] Negev\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] MAG-7\n[B] Negev\n[C] M249",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Negev\n[B] M249\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Negev\n[B] XM1014\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] XM1014\n[B] M249\n[C] MAG-7",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] Nova\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] XM1014\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] M249\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Sawed-Off\n[B] MAG-7\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] M249\n[B] MAG-7\n[C] Nova",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Negev\n[B] Nova\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] M249\n[B] Nova\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Nova\n[B] XM1014\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] M249\n[B] MAG-7\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] Sawed-Off\n[B] MAG-7\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/d/d4/CSGO_MAG-7_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200441",
+        "body": "[A] MAG-7\n[B] Negev\n[C] XM1014",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] Sawed-Off\n[B] Negev\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] XM1014\n[B] Sawed-Off\n[C] Negev",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] XM1014\n[B] Negev\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] MAG-7\n[C] Nova",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Nova\n[B] M249\n[C] XM1014",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] XM1014\n[B] Sawed-Off\n[C] M249",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Nova\n[B] XM1014\n[C] Sawed-Off",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] XM1014\n[C] MAG-7",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Negev\n[B] Nova\n[C] Sawed-Off",
+        "answer": "A"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] M249\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/1/11/CSGO_Nova_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200616",
+        "body": "[A] MAG-7\n[B] Sawed-Off\n[C] Nova",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/b/b4/CSGO_Sawed-Off_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200706",
+        "body": "[A] MAG-7\n[B] M249\n[C] Sawed-Off",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Sawed-Off\n[B] XM1014\n[C] Negev",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] Sawed-Off\n[B] Negev\n[C] M249",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/3/37/CSGO_XM1014_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813200959",
+        "body": "[A] Sawed-Off\n[B] M249\n[C] XM1014",
+        "answer": "C"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/7/7c/CSGO_M249_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203106",
+        "body": "[A] Negev\n[B] M249\n[C] MAG-7",
+        "answer": "B"
+    },
+    {
+        "link": "https://static.wikia.nocookie.net/cswikia/images/0/03/CSGO_Negev_Inventory.png/revision/latest/scale-to-width-down/2000?cb=20130813203153",
+        "body": "[A] XM1014\n[B] Negev\n[C] M249",
+        "answer": "B"
+    }
+]

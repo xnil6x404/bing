@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Generator</title>
+  <link rel="stylesheet" href="editapi.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="style.css">
+              <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+                    <nav class="sidebar close">
+
+        <header>
+
+            <div class="image-text">
+                <span class="image">
+                    <img src="profile.jpg" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Sakibin</span>
+                    <span class="profession">Server</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="start.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">HOME</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="editapi.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">API's</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="status.html">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="moni.html">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">My Love</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="openai.html">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Open AI</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text"></span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text"></div>
+    </section>
+
+    <script src="script.js"></script>
+     
+          <div class="mainform">
+              <center>
+      <div class="api_head">
+          <h3 class="api_title">TRY Sakibin LOGO API's</h3>
+            <div class="gol1"></div>
+          <div class="gol2"></div>
+          <div class="gol3"></div>
+      </div>            
+  <form id="imageForm">
+    <label for="text"></label>
+    <input type="text" id="text" placeholder="Your name/text" name="text" required><br>
+    <label for="number"></label>
+    <input type="number" id="number" placeholder="Enter Edit number?" name="number" required><br>
+    <input type="submit" value="Generate Image">
+  </form>
+  </center>
+  </div>
+ <div class="image_size">
+  <div id="imageContainer" class="image-container"></div>
+<!--</div>
+  <a href="#" class="free_file">Free Bot File</a> -->
+  <script>
+    const form = document.getElementById("imageForm");
+    const imageContainer = document.getElementById("imageContainer");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const textValue = document.getElementById("text").value;
+      const numberValue = document.getElementById("number").value;
+
+      const imageSrc = `https://Sakibin-logo-api.Sakibinapi.repl.co/api/textpro?number=${numberValue}&text=${textValue}`;
+
+      createImage(imageSrc, textValue);
+    });
+
+function createImage(src, alt,) {
+  const image = new Image();
+  image.src = src;
+  image.alt = alt;
+ // Specify the desired width and height for the resized image
+    const width = 300;
+    const height = 200;
+
+    // Set the width and height attributes of the image
+    image.width = width;
+    image.height = height;
+ 
+
+  imageContainer.innerHTML = '';
+  imageContainer.appendChild(image);
+}
+
+  </script>
+</body>
+</html>

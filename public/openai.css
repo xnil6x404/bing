@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+      --hue: 207;
+  --sat: 90%;
+  --lig: 61%;
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+  --title-color: hsl(var(--hue), 12%, 15%);
+  --text-color: hsl(var(--hue), 12%, 45%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 8%, 92%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #fff;
+
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+  /*  --text-color: #ccc; */
+  /*  --text-color: black; */
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+    .chat-container {
+      top: 90px;
+      position: relative;
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #695CFE;
+      border-radius: 5px;
+      background-color: #695CFE;
+    }
+    
+    /* User message styles */
+    .user-message {
+      position: relative;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-left: -10px;
+    }
+    
+    /* AI message styles */
+    .ai-message {
+      top: 0px;   
+      height: 300px;
+      width: 300px;
+      right: 10px;
+      position: relative;
+      text-align: left;
+      border: 1px solid #695CFE;
+      background-color: #fff;
+    }
+    
+#user-input {
+   padding-left: 10px;
+   top: -350px;
+   right: -20px;
+   height: 70px;
+   width: 300px;
+   position: relative;
+   background:  (--body-color);
+   border: 2px solid #695CFE;
+   border-radius: 5px;
+    }
+    
+#user-input:hover {
+   border: 1px solid green;
+   display: inline-block;
+}
+
+.send-button {
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    right: 29px;
+    bottom: 330px;
+    position: relative;
+    background-color: #695CFE;
+    border: none;
+}
+
+.api_head {
+ position: relative;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #695CFE;
+}
+.api_title {
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+.gol1 {
+    position: relative;
+    background-color: lime;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+ 
+}
+
+.gol2 {
+    position: relative;
+    background-color: deeppink;
+    left: 30px;
+    top: -20px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+
+}
+
+.gol3 {
+    position: relative;
+    background-color: deepskyblue;
+    left: -30px;
+    top: -50px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+ 
+}

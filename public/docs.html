@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sakibin API | Dashboard</title>
+	<meta name="google-site-verification" content="XczMGdol3AqxI7-51zKsTogVOt-R1vmICCDN24cEEBw" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://sakibin.github.io/web/OverlayScrollbars.min.css" type="text/css">
+	<link rel="stylesheet" href="https://d-jukie.github.io/assets/v3/dist/css/adminlte.min.css" type="text/css">
+  
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" id="theme-styles" type="text/css">
+</head>
+<style>
+	html,body{cursor:url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;}
+	a:hover{cursor:url("https://1.bp.blogspot.com/-nYv2dLl3oXY/YL9utYBCh8I/AAAAAAAAFtA/wII4lVw5w4k-4isGMY41heTqk8U4TJujgCLcBGAsYHQ/s0/mouse-f2.png"), auto;}
+</style>
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+  <div class="cyberpunk-loading">
+  Loading...
+</div>
+	<div class="wrapper">
+		<div class="preloader flex-column justify-content-center align-items-center">
+		</div>
+		<nav class="main-header navbar navbar-expand navbar-dark">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link" data-toggle="dropdown" href="#">
+						<i class="far fa-bell"></i>
+						<span class="badge badge-warning navbar-badge" id="notify_length"></span>
+					</a>
+					<div id="notify" class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-widget="fullscreen" href="#" role="button">
+						<i class="fas fa-expand-arrows-alt"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+						<i class="fal fa-cog"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<aside class="main-sidebar sidebar-dark-primary elevation-4">
+			<a href="javascript:void(0);" class="brand-link">
+				<img src="https://i.ibb.co/s9BXY2W/FB-IMG-1695808637211.jpg" alt="Sakibin" class="brand-image img-circle elevation-3" style="opacity: .8">
+				<span class="brand-text font-weight-light">Sakibin API</span>
+			</a>
+			<div class="sidebar">
+				<nav class="mt-2">
+					<ul class="nav nav-pills nav-sidebar flex-column nav-flat" data-widget="treeview" role="menu" data-accordion="false">
+						<li class="user-panel pb-0 mt-0 nav-item">
+							<a href="#" class="nav-link">
+								<i class="nav-icon fas fa-tachometer-alt"></i>
+								<p>
+									Dashboard
+									<span class="right badge badge-danger">WELCOME</span>
+								</p>
+							</a>
+						</li><br>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+		<div class="content-wrapper">
+			<div class="content-header">
+				<div class="container-fluid">
+					<div class="row mb-2">
+						<div class="col-sm-6">
+							<h1 class="m-0">Document</h1>
+						</div>
+						<div class="col-sm-6">
+							<ol class="breadcrumb float-sm-right">
+								<li class="breadcrumb-item"><a href="#">Home page</a></li>
+								<li class="breadcrumb-item active">Document API</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-sm-6 col-md-3">
+							<div class="info-box mb-3">
+								<span class="info-box-icon bg-warning elevation-1"><i class="fad fa-user-tie"></i></span>
+								<div class="info-box-content">
+									<span class="info-box-text">Access times</span>
+									<span id="pengunjung_length" class="info-box-number">
+										0
+										<small>Access times</small>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-3">
+							<div class="info-box">
+								<span class="info-box-icon bg-info elevation-1"><i class="fad fa-server"></i></span>
+								<div class="info-box-content">
+									<span class="info-box-text">Server memory</span>
+									<span id="cpu_usage" class="info-box-number">
+										0
+										<small>/ 2000MB</small>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix hidden-md-up"></div>
+						<div class="col-12 col-sm-6 col-md-3">
+							<div class="info-box mb-3">
+								<span class="info-box-icon bg-danger elevation-1"><i class="fal fa-clock"></i></span>
+								<div class="info-box-content">
+									<span class="info-box-text">Todays Time</span>
+									<span id="clock" class="info-box-number">00:00:00 <small></small></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-3">
+							<div class="info-box mb-3">
+								<span class="info-box-icon bg-success elevation-1"><i class="far fa-battery-full"></i></span>
+								<div class="info-box-content">
+									<span class="info-box-text">Your Charge</span>
+									<span id="battery_level" class="info-box-number">100% <small id="battery_status"></small></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title">Device Information</h5>
+									<div class="card-tools">
+										<button type="button" class="btn btn-tool" data-card-widget="collapse">
+											<i class="fas fa-minus"></i>
+										</button>
+										<button type="button" class="btn btn-tool" onclick="clearInterval('repeatinfo');" data-card-widget="remove">
+											<i class="fas fa-times"></i>
+										</button>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-12">
+											<p id='information'>
+											</p>
+										</div>
+									</div>
+								</div> 
+							</div>
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<aside class="control-sidebar control-sidebar-dark">
+		</aside>
+	</div>
+	<script type="text/javascript" charset="utf-8">
+		isDocs = undefined;
+	</script>
+	<script src="https://sakibin.github.io/web/MenuList.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://sakibin.github.io/web/menu.js" type="text/javascript" charset="utf-8">
+</script>
+	<script src="https://sakibin.github.io/web/jquery.min.js"></script>
+	<script src="https://sakibin.github.io/web/bootstrap.bundle.min.js"></script>
+	<script src="https://sakibin.github.io/web/jquery.overlayScrollbars.min.js"></script>
+	<script src="https://sakibin.github.io/web/adminlte.js"></script>
+	<script src="https://sakibin.github.io/web/jquery.mousewheel.js"></script>
+	<script src="https://sakibin.github.io/web/raphael.min.js"></script>
+	<script src="https://sakibin.github.io/web/jquery.mapael.min.js"></script>
+	<script src="https://sakibin.github.io/web/usa_states.min.js"></script>
+	<script src="https://sakibin.github.io/web/Chart.min.js"></script>
+	<script src="https://sakibin.github.io/web/demo.js"></script>
+  <script src="./script.js"></script>
+	<script src="https://sakibin.github.io/web/dashboard2.js"></script>
+</body>
+</html>

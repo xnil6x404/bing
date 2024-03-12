@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor Counter</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>You are visitor number: <span id="counter">0</span></p>
+
+    <script>
+        // Function to increment the visitor counter
+        function incrementCounter() {
+            var counterElement = document.getElementById("counter");
+            var currentCount = parseInt(counterElement.innerHTML);
+            counterElement.innerHTML = currentCount + 1;
+        }
+
+        // Call the incrementCounter function when the page loads
+        window.onload = incrementCounter;
+    </script>
+</body>
+</html>

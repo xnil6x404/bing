@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Bard AI Chat</title>
+  <link rel="stylesheet" href="openai.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+                     <nav class="sidebar close">
+
+        <header>
+
+            <div class="image-text">
+                <span class="image">
+                    <img src="profile.jpg" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Sakibin</span>
+                    <span class="profession">Server</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">HOME</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="editapi.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">API's</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="status.html">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="moni.html">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">My Love</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="openai.html">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">OpenAI</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text"></span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text"></div>
+    </section>
+
+    <script src="script.js"></script>
+      <center>
+             <div class="api_head">
+          <h3 class="api_title">Test Open A.i</h3>
+            <div class="gol1"></div>
+          <div class="gol2"></div>
+          <div class="gol3"></div>
+      </div>
+  <div class="chat-container">
+    <div class="ai-message">Here Your Result :</div>
+  </div>
+
+  <script>
+    // Function to send user message and receive AI response
+    async function sendMessage() {
+      const inputField = document.getElementById("user-input");
+      const chatContainer = document.querySelector(".chat-container");
+      const userMessage = inputField.value.trim();
+
+      if (userMessage !== "") {
+        // Create a new user message element
+        const userMessageElement = document.createElement("div");
+        userMessageElement.classList.add("user-message");
+        userMessageElement.textContent = userMessage;
+        chatContainer.appendChild(userMessageElement);
+
+        // Send user message to the Bard AI API
+        const response = await fetch(`https://chards-test-api.joshuag06.repl.co/bard?text=${encodeURIComponent(userMessage)}`);
+        const responseData = await response.json();
+
+        // Create a new AI message element with the response content
+        const aiMessageElement = document.createElement("div");
+        aiMessageElement.classList.add("ai-message");
+        aiMessageElement.textContent = responseData.newResponse.content;
+        chatContainer.appendChild(aiMessageElement);
+
+        // Clear the input field
+        inputField.value = "";
+      }
+    }
+
+    // Handle form submission
+    document.getElementById("chat-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      sendMessage();
+    });
+  </script>
+
+  <form id="chat-form">
+    <input type="text" id="user-input" placeholder="Enter your message" autocomplete="on">
+    <button class="send-button" type="submit">Send</button>
+  </form>
+</body>
+</html>

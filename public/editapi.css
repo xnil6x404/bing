@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+      --hue: 207;
+  --sat: 90%;
+  --lig: 61%;
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+  --title-color: hsl(var(--hue), 12%, 15%);
+  --text-color: hsl(var(--hue), 12%, 45%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 8%, 92%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #fff;
+
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+  /*  --text-color: #ccc; */
+  /*  --text-color: black; */
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #695CFE;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  
+ input[type=text], select:hover {
+     
+    border: 1px solid #695CFE;
+    
+
+}
+input[type=number], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #695CFE;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 70%;
+  background-color: #695CFE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #695CFE;
+}
+.image-container {
+    position: relative;
+    left: 50px;
+  height: auto;
+    
+   
+}
+.mainform {
+    position: relative;
+    
+    
+}
+.image_size {
+    
+    
+}
+.api_head {
+ position: relative;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #695CFE;
+}
+.api_title {
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+.gol1 {
+    position: relative;
+    background-color: lime;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.gol2 {
+    position: relative;
+    background-color: deeppink;
+    left: 50px;
+    top: -20px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.gol3 {
+    position: relative;
+    background-color: deepskyblue;
+    left: -50px;
+    top: -50px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.free_file {
+    position: relative;
+    background-color: #695CFE;
+    height: 70%;
+    width: 30px;
+    
+}
