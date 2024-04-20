@@ -81,6 +81,46 @@ router.get('/bard', async (req, res) => {
     res.status(500).send('Error generating response');
   }
 });
+
+router.get("/letfile", (req, res) => {
+  const filePath = req.query.file;
+  
+  // Check if filePath is provided
+  if (!filePath) {
+    return res.status(400).send("File path not provided.");
+  }
+
+  // Check if the requested file type is allowed
+  const allowedExtensions = ['.js', '.json', '.png'];
+  const fileExtension = path.extname(filePath);
+  if (!allowedExtensions.includes(fileExtension)) {
+    return res.status(400).send("File type not supported.");
+  }
+
+  // Check if the file exists
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send("File not found.");
+  }
+
+  // Set appropriate content type based on file type
+  let contentType = '';
+  if (fileExtension === '.js') {
+    contentType = 'application/javascript';
+  } else if (fileExtension === '.json') {
+    contentType = 'application/json';
+  } else if (fileExtension === '.png') {
+    contentType = 'image/png';
+  }
+
+  // Set headers and send the file
+  res.set({
+    'Content-Type': contentType,
+    'Content-Disposition': `attachment; filename="${path.basename(filePath)}"`
+  });
+  res.sendFile(filePath);
+});
+
+
 router.get('/gpt4', async (req, res) => {
   try {
     const prompt = req.query.prompt || 'Hello, what is your name?';
