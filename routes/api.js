@@ -6,6 +6,7 @@ const { exec } = require('child_process');
 const DIG = require('discord-image-generation');
 const canvafy = require("canvafy");
 const fs = require('fs');
+const qs = require('qs');
 const FormData = require('form-data');
 const stream = require('stream');
 const alip = require("../slib/listdl")
