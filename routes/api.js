@@ -31,6 +31,39 @@ const isImageURL = require('image-url-validator').default
 const Canvacord = require("canvacord");
 const isNumber = require('is-number');
 const { fetchJson, runtime, getBuffer } = require('../slib/myfunc')
+const credentials = {
+    clientId: '8a04e36d88654f4b96d8ae564d929bf8',
+    clientSecret: '10807fefa89646edb640b3faeaf83567'
+};
+async function getAccessToken() {
+    const tokenUrl = 'https://accounts.spotify.com/api/token';
+    const data = qs.stringify({ grant_type: 'client_credentials' });
+
+    const headers = {
+        'Authorization': 'Basic ' + Buffer.from(`${credentials.clientId}:${credentials.clientSecret}`).toString('base64'),
+        'Content-Type': 'application/x-www-form-urlencoded'
+    };
+
+    try {
+        const response = await axios.post(tokenUrl, data, { headers });
+        return response.data.access_token;
+    } catch (error) {
+        console.error('Error fetching access token:', error);
+    }
+}
+async function searchTrack(keyword, token) {
+    const searchUrl = `https://api.spotify.com/v1/search?q=${encodeURIComponent(keyword)}&type=track&limit=1`;
+    const headers = {
+        'Authorization': `Bearer ${token}`
+    };
+
+    try {
+        const response = await axios.get(searchUrl, { headers });
+        return response.data.tracks.items[0];
+    } catch (error) {
+        console.error('Error searching for track:', error);
+    }
+}
 
 const gptKey = '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';
 const gptbUrl = 'https://api.openai.com/v1/chat/completions';
@@ -38,6 +71,36 @@ const fetch = require('node-fetch');
 //const express = require('express');
 const { RsnChat } = require('rsnchat');
 const rsnchat = new RsnChat('rsnai_oCtOzqgxfNkzREd7PzI31F0p');
+router.get('/spotify', async (req, res) => {
+    const keyword = req.query.keyword;
+
+    if (!keyword) {
+        return res.status(400).send('Keyword is required');
+    }
+
+    try {
+        const token = await getAccessToken();
+        if (token) {
+            const track = await searchTrack(keyword, token);
+            if (track) {
+                res.json({
+                    trackName: track.name,
+                    artist: track.artists.map(artist => artist.name).join(', '),
+                    album: track.album.name,
+                    previewUrl: track.preview_url
+                });
+            } else {
+                res.status(404).send('No track found for the given keyword.');
+            }
+        } else {
+            res.status(500).send('Unable to obtain access token.');
+        }
+    } catch (error) {
+        console.error('Error handling request:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
 router.get('/allai', async (req, res) => {
   try {
     const prompt = req.query.prompt || 'Hello, what is your name?';
